@@ -1,6 +1,3 @@
-import operator
-
-
 def merge(original, add, remove):
 
     results = (set(original) | set(add)) - set(remove)
@@ -12,6 +9,7 @@ def merge(original, add, remove):
     return results
 
 
+# Test the function! 
 print(merge(
     ["one", "two", "three"], 
     ["one", "two", "five", "six"],
